@@ -1,4 +1,4 @@
-package com.junoyi.life.controller;
+package com.junoyi.life.controller.admin;
 
 import com.junoyi.framework.web.domain.BaseController;
 import lombok.RequiredArgsConstructor;
@@ -14,4 +14,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/habit/list")
 @RequiredArgsConstructor
 public class HabitListController extends BaseController {
+
+
 }
