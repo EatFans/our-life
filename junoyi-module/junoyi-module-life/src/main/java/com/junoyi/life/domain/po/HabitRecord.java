@@ -19,15 +19,39 @@ public class HabitRecord {
     @TableId
     private Long id;
 
+    /**
+     * 习惯ID
+     */
     private Long habitId;
 
+    /**
+     * 用户ID
+     */
     private Long userId;
 
+    /**
+     * 记录日期（xxxx-xx-xx)
+     */
     private Date recordDate;
 
+    /**
+     * 记录次数
+     */
     private Integer count;
 
+    /**
+     * 记录状态
+     */
     private Integer status;
 
-    private Long creatorId;
+    /**
+     * 创建时间
+     */
+    private Date createTime;
+
+    /**
+     * 更新时间
+     */
+    private Date updateTime;
+
 }
