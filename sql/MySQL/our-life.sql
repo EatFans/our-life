@@ -11,7 +11,7 @@
  Target Server Version : 80404 (8.4.4)
  File Encoding         : 65001
 
- Date: 28/06/2026 22:51:34
+ Date: 28/06/2026 23:21:40
 */
 
 SET NAMES utf8mb4;
@@ -60,6 +60,23 @@ CREATE TABLE `habit_record` (
 
 -- ----------------------------
 -- Records of habit_record
+-- ----------------------------
+BEGIN;
+COMMIT;
+
+-- ----------------------------
+-- Table structure for habit_user
+-- ----------------------------
+DROP TABLE IF EXISTS `habit_user`;
+CREATE TABLE `habit_user` (
+  `id` bigint NOT NULL AUTO_INCREMENT COMMENT '主键ID',
+  `habit_id` bigint DEFAULT NULL COMMENT '习惯ID',
+  `user_id` bigint DEFAULT NULL COMMENT '用户ID',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT='习惯协作人表';
+
+-- ----------------------------
+-- Records of habit_user
 -- ----------------------------
 BEGIN;
 COMMIT;
