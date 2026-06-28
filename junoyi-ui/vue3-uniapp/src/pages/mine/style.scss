@@ -1,0 +1,30 @@
+.mine-page {
+  min-height: 100vh;
+  box-sizing: border-box;
+  background: #f7f8fa;
+}
+
+.header-box {
+  height: 200px;
+}
+
+.not-login, .is-login{
+  width: 100%;
+  height: 100%;
+  border: black solid 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.body {
+  height: 200px;
+}
+
+.body button {
+  margin-top: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border: red solid 1px;
+}
