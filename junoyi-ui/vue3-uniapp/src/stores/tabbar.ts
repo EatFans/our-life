@@ -18,6 +18,12 @@ export const useTabbarStore = defineStore('tabbar', () => {
       pagePath: '/pages/habit/index',
     },
     {
+      text: '厨房',
+      iconPath: '/static/tabbar/kitchen.png',
+      selectedIconPath: '/static/tabbar/kitchen_selected.png',
+      pagePath: '/pages/kitchen/index'
+    },
+    {
       text: '我的',
       iconPath: '/static/tabbar/me.png',
       selectedIconPath: '/static/tabbar/me_selected.png',
