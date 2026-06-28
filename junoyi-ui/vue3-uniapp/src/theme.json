@@ -9,7 +9,7 @@
     "tabBgColor": "#fcfcfc",
     "tabBorderStyle": "black",
     "tabFontColor": "#1f2937",
-    "tabSelectedColor": "#ff6b00"
+    "tabSelectedColor": "#1296db"
   },
   "dark": {
     "bgColor": "#181818",
@@ -21,6 +21,6 @@
     "tabBgColor": "#181818",
     "tabBorderStyle": "white",
     "tabFontColor": "#f3f4f6",
-    "tabSelectedColor": "#ff6b00"
+    "tabSelectedColor": "#1296db"
   }
 }

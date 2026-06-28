@@ -8,6 +8,9 @@
     },
     {
       "path": "pages/auth/login/index"
+    },
+    {
+      "path": "pages/habit/index"
     }
   ],
   "globalStyle": {
@@ -28,6 +31,9 @@
     "list": [
       {
         "pagePath": "pages/home/index"
+      },
+      {
+        "pagePath": "pages/habit/index"
       },
       {
         "pagePath": "pages/mine/index"
