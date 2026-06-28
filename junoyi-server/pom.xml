@@ -29,6 +29,10 @@
             <artifactId>junoyi-module-oauth</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>com.junoyi</groupId>
+            <artifactId>junoyi-module-life</artifactId>
+        </dependency>
 
         <!-- ==================== 开发工具依赖 ==================== -->
         <!-- 

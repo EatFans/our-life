@@ -5,21 +5,18 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.junoyi</groupId>
-        <artifactId>our-life</artifactId>
+        <artifactId>junoyi-module</artifactId>
         <version>${revision}</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>junoyi-module</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>junoyi-module-system</module>
-        <module>junoyi-module-oauth</module>
-        <module>junoyi-module-life</module>
-    </modules>
+    <artifactId>junoyi-module-life</artifactId>
 
     <dependencies>
-
+        <dependency>
+            <groupId>com.junoyi</groupId>
+            <artifactId>junoyi-module-system</artifactId>
+        </dependency>
     </dependencies>
 
 </project>
