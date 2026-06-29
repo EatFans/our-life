@@ -11,6 +11,9 @@
     },
     {
       "path": "pages/habit/index"
+    },
+    {
+      "path": "pages/kitchen/index"
     }
   ],
   "globalStyle": {
@@ -34,6 +37,9 @@
       },
       {
         "pagePath": "pages/habit/index"
+      },
+      {
+        "pagePath": "pages/kitchen/index"
       },
       {
         "pagePath": "pages/mine/index"
