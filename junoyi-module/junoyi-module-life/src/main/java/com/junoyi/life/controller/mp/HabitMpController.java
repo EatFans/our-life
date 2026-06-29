@@ -31,7 +31,6 @@ public class HabitMpController extends BaseController {
     @GetMapping("/list")
     @PlatformScope(PlatformType.MINI_PROGRAM)
     public R<List<HabitItemVO>> getHabitList(){
-
         Long currentUserId = getUserId();
         if (currentUserId == null || currentUserId == 0)
             return R.fail("非法请求");

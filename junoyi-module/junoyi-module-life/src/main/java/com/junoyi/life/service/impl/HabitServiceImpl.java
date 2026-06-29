@@ -26,6 +26,6 @@ public class HabitServiceImpl implements IHabitService {
      */
     @Override
     public List<HabitItemVO> getUserHabits(Long userId) {
-        return List.of();
+        return habitMapper.selectUserHabits(userId);
     }
 }
