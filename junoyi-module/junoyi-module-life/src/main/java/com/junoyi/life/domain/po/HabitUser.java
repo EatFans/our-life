@@ -28,4 +28,6 @@ public class HabitUser {
      * 用户ID
      */
     private Long userId;
+
+
 }
